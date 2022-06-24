@@ -1,5 +1,5 @@
 # Holiday-Chat-Bot-Web-App-Using-Neural-Network
-A chat bot web applicaition that recommends suitable holiday according to user query using neural network
+A chat bot web application that recommends suitable holiday according to user query using neural network
 ## Installation
 
 ### Create an environment
