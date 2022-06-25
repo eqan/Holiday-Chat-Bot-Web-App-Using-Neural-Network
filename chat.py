@@ -61,10 +61,15 @@ if __name__ == "__main__":
     print("Let's chat! (type 'quit' to exit)")
     while True:
         # sentence = "do you use credit cards?"
-        sentence = input("You: ")
-        if sentence == "quit":
+        print(bot_name + ": What climate do you like?")
+        climate = input("You: ")
+        print(bot_name + ": What type of destination are you looking for?")
+        destination = input("You: ")
+        print(bot_name + ": Which continent would you ideally like to visit?")
+        continent = input("You: ")
+        sentence = (climate+" " + destination + " "+ continent)
+        if "quit" in sentence:
             break
-
         resp = get_response(sentence)
         print(resp)
     wb.save(filename = workbook_name)

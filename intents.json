@@ -1,30 +1,43 @@
 {
   "intents": [
     {
-      "tag": "warm with sea",
+      "tag": "warm with sea in asia",
       "patterns": [
-        "Any warm place in India with sea for a stay?",
-        "Any warm place in Australia with sea for a stay?",
-        "Hey i wanted to go somewhere warm with sea?",
-        "Is there any warm place out there with a sea view?",
-        "For winter vacations i would like some warm cosy place and with sea view, any recommendations?",
-        "Any recommendations for a warm cosy place with a sea view?",
-        "I want live in hotel during winters with a sea view, any recommendations?"
+        "warm sea asia",
+        "warm seaview asia",
+        "warm place in asia with sea",
+        "For winter vacations i would like some warm cosy place and with sea view in asia",
+        "Recommendations for a warm cosy place with a sea view in asia",
+        "I want live in hotel during winters with a sea view in asia"
       ],
       "responses": [
-        "Why not try out HotTimes, Jaipur, India",
-        "TooHot hotel, sydney, Australia is seen to have very high temperatures?"
+        "Why not try out HotTimes, Jaipur, India"
+      ]
+    },
+    {
+      "tag": "warm with sea in australia",
+      "patterns": [
+        "warm sea australia",
+        "warm place in australia with sea",
+        "For winter vacations i would like some warm cosy place and with sea view australia",
+        "Recommendations for a warm cosy place with a sea view in australia",
+        "I want live in hotel during winters with a sea view in australia"
+      ],
+      "responses": [
+        "TooHot hotel, sydney, Australia is seen to have very high temperatures"
       ]
     },
     {
       "tag": "warm with mountains",
       "patterns": [
-        "Any warm place in Dubai with mountains for a stay?",
-        "Hey i wanted to go somewhere warm with mountains?",
-        "Is there any warm place out there with a mountain view?",
-        "For winter vacations i would like some warm cosy place and with mountains, any recommendations?",
-        "Any recommendations for a warm cosy place with a mountains?",
-        "I want live in hotel during winters with a mountain, any recommendations?"
+        "warm mountain asia",
+        "warm mountains asia",
+        "warm place in asia with mountains for a stay",
+        "i wanted to go somewhere warm with mountains in asia",
+        "any warm place out there with a mountain view in asia",
+        "For winter vacations i would like some warm cosy place and with mountains in asia",
+        "Any recommendations for a warm cosy place with a mountains in asia",
+        "I want live in hotel during winters with a mountain in asia"
       ],
       "responses": [
         "I think desert dreams hotel, Dubai, UAE would be a suitable place for you"
@@ -33,84 +46,128 @@
     {
       "tag": "cold",
       "patterns": [
-        "Hey i wanted to go somewhere cold place with mountains?",
-        "Is there any cold place out there with a mountain view?",
-        "For summer vacations i would like some warm cosy place and with mountains, any recommendations?",
-        "I want live in hotel during summers with a mountain, any recommendations?",
-        "Hey i wanted to go somewhere cold?",
-        "Is there any cold place out there?",
-        "For summer vacations i would like some cold cosy place, any recommendations?",
-        "Any recommendations for a cold cosy place?"
+        "cold",
+        "antartica",
+        "cold mountain antartica",
+        "cold mountains antartica",
+        "cold mountain africa",
+        "cold mountains africa",
+        "somewhere cold with mountains",
+        "any cold place out there with a mountain view",
+        "For summer vacations i would like some cold place with mountains",
+        "I want live in hotel during summers with mountain",
+        "i wanted to go somewhere cold",
+        "any cold place out there",
+        "For summer vacations i would like some cold place"
       ],
       "responses": [
         "I think Twighlight hotel, Marrakech, Morocco would be a suitable place for you",
-        "IceHotel hotel, Base Marambio, Antartica is seen to have very low temperatures?",
+        "IceHotel hotel, Base Marambio, Antartica is seen to have very low temperatures",
         "Why not try out NorthStar, Greenland, USA"
       ]
     },
     {
-      "tag": "mild in asia",
+      "tag": "mild in asia with mountains",
       "patterns": [
-        "Hey i wanted to go somewhere mild in asia?",
-        "Is there any mild place out there in asia?",
-        "For vacations i would like some mild cosy place in asia, any recommendations?",
-        "Any recommendations for a mild cosy place in asia?"
+        "mild mountain asia",
+        "mild mountains asia",
+        "i wanted to go somewhere mild in asia with mountain",
+        "any mild place out there in asia with mountain",
+        "i wanted to go somewhere mild in asia with mountains",
+        "any mild place out there in asia with mountains",
+        "For vacations i would like some mild place in asia with mountains",
+        "Any recommendations for a mild cosy place in asia with mountains"
       ],
       "responses": [
         "I think Uptown Hotel, Bali, Indonesia, would be a suitable place for you",
-        "WearyTraveller Hotel, Paro Valley, Bhutan is seen to have very low temperatures?",
+        "WearyTraveller Hotel, Paro Valley, Bhutan is seen to have very low temperatures"
+      ]
+    },
+    {
+      "tag": "mild in asia with city",
+      "patterns": [
+        "mild city asia",
+        "i wanted to go somewhere mild in a city in asia",
+        "any mild city out there in asia",
+        "For vacations i would like some mild cosy place  in a city in asia",
+        "Any recommendations for a mild cosy place in a city in asia"
+      ],
+      "responses": [
         "Why not try out TechCity Hotel, Tokyo, Japan"
       ]
     },
     {
       "tag": "mild in north america",
       "patterns": [
-        "Hey i wanted to go somewhere mild in north america?",
-        "Is there any mild place out there in north america?",
-        "For vacations i would like some mild cosy place in north america, any recommendations?",
-        "Any recommendations for a mild cosy place in north america?"
+        "mild city north america",
+        "i wanted to go somewhere mild in a city in north america",
+        "any mild place out there in a city in north america",
+        "For vacations i would like some mild cosy place in a city in north america",
+        "Any recommendations for a mild place in a city in north america"
       ],
       "responses": [
         "I think Relaxamax Hotel, New Orleans, USA would be a suitable place for you",
-        "AppleCity Hotel, New York, USA is seen to have very low temperatures?",
+        "AppleCity Hotel, New York, USA is seen to have very low temperatures",
         "Why not try out Casablanca Hotel, Havana, Cuba"
       ]
     },
     {
-      "tag": "mild in australia",
+      "tag": "mild in euorpe in city",
       "patterns": [
-        "Hey i wanted to go somewhere mild in africa?",
-        "Is there any mild place out there in euorpe?",
-        "For vacations i would like some mild cosy place in australia, any recommendations?",
-        "Any recommendations for a mild cosy place in euorpe?"
+        "mild city euorpe",
+        "i wanted to go somewhere mild in a city in euorpe",
+        "any mild place out there in a city in euorpe",
+        "For vacations i would like some mild place in a city in euorpe",
+        "Any recommendations for a mild place in a city in euorpe"
       ],
       "responses": [
-        "I think WindyBeach Hotel, Ventry, Ireland would be a suitable place for you",
-        "IslandHopper Hotel, Dubrovnik, Croatia is seen to have very low temperatures?",
         "Why not try out CastleTown Hotel, Edinburgh, Scotland",
         "Maybe WineValley Hotel, Rome, Italy would be a suitable place for you"
       ]
     },
     {
+      "tag": "mild in euorpe with seaview",
+      "patterns": [
+        "mild sea euorpe",
+        "mild seaview euorpe",
+        "i wanted to go somewhere mild with sea view in euorpe",
+        "any mild place out there with sea view in euorpe",
+        "For vacations i would like some mild place with sea view in euorpe",
+        "Any recommendations for a mild place with sea view in euorpe",
+        "i wanted to go somewhere mild with seaview in euorpe",
+        "any mild place out there with seaview in euorpe",
+        "For vacations i would like some mild place with seaview in euorpe",
+        "Any recommendations for a mild place with seaview in euorpe"
+      ],
+      "responses": [
+        "I think WindyBeach Hotel, Ventry, Ireland would be a suitable place for you",
+        "IslandHopper Hotel, Dubrovnik, Croatia is seen to have very low temperatures"
+      ]
+    },
+    {
       "tag": "mild in africa",
       "patterns": [
-        "Hey i wanted to go somewhere mild in africa?",
-        "Is there any mild place out there in africa?",
-        "For vacations i would like some mild cosy place in africa, any recommendations?",
-        "Any recommendations for a mild cosy place in africa?"
+        "mild sea euorpe",
+        "mild seaview euorpe",
+        "i wanted to go somewhere mild with seaview in africa",
+        " any mild place out there with seaview in africa",
+        "For vacations i would like some mild cosy place with seaview in africa",
+        "Any recommendations for a mild cosy place with seaview in africa"
       ],
       "responses": [
         "I think Castaway Hotel, The Maldives would be a suitable place for you",
-        "The Cape Hotel, Cape Town, South Africa is seen to have very low temperatures?"
+        "The Cape Hotel, Cape Town, South Africa is seen to have very low temperatures"
       ]
     },
     {
       "tag": "mild in australia",
       "patterns": [
-        "Hey i wanted to go somewhere mild in australia?",
-        "Is there any mild place out there in australia?",
-        "For vacations i would like some mild cosy place in australia, any recommendations?",
-        "Any recommendations for a mild cosy place in australia?"
+        "mild mountain euorpe",
+        "mild mountains euorpe",
+        "i wanted to go somewhere mild with mountains in australia",
+        "any mild place out there with mountains in australia",
+        "For vacations i would like some mild cosy place with mountains in australia",
+        "recommendations for a mild cosy place with mountains in australia"
       ],
       "responses": [
         "I think SeaViews Hotel, Bora Bora, Australia would be a suitable place for you"
